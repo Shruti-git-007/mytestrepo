@@ -1,7 +1,9 @@
-param(
-    [Parameter(Mandatory=$true)]
-    [string]$InstallPackage
-)
+# param(
+#     [Parameter(Mandatory=$true)]
+#     [string]$InstallPackage
+# )
+
+$InstallPackage = 'npp.Installer.exe'
 
 # Test: Download from the website
 $DownloadUrl = "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.5.4/npp.8.5.4.Installer.x64.exe" 
